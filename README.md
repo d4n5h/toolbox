@@ -15,15 +15,15 @@ A TypeScript/JavaScript vector store for LangChain tools with semantic search. M
 ## Installation
 
 ```bash
-bun install toolbox
+bun install @danisl99/toolbox
 # or
-npm install toolbox
+npm install @danisl99/toolbox
 ```
 
 ## Quick Start
 
 ```typescript
-import { Toolbox } from "toolbox";
+import { Toolbox } from "@danisl99/toolbox";
 import { OllamaEmbeddings } from "@langchain/ollama";
 import { tool } from "@langchain/core/tools";
 import { z } from "zod";
@@ -162,7 +162,7 @@ extractZodSchema(schema): any  // Enhanced Zod v4 schema extraction
 Agents start with minimal tools and discover/load more as needed:
 
 ```typescript
-import { Toolbox, createLangGraphAgentWithToolbox } from "toolbox";
+import { Toolbox, createLangGraphAgentWithToolbox } from "@danisl99/toolbox";
 import { ChatOllama, OllamaEmbeddings } from "@langchain/ollama";
 import { HumanMessage } from "@langchain/core/messages";
 

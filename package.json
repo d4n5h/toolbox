@@ -1,5 +1,5 @@
 {
-  "name": "@d4n5h/toolbox",
+  "name": "@danisl99/toolbox",
   "version": "0.1.0",
   "description": "A TypeScript/JavaScript vector store for LangChain tools with semantic search. Manage hundreds or thousands of tools and dynamically select only the relevant ones for each agent. Similar to LangGraph's BigTool, but for the JS/TS ecosystem.",
   "main": "dist/index.js",
