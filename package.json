@@ -1,0 +1,49 @@
+{
+  "name": "@d4n5h/toolbox",
+  "version": "0.1.0",
+  "description": "A TypeScript/JavaScript vector store for LangChain tools with semantic search. Manage hundreds or thousands of tools and dynamically select only the relevant ones for each agent. Similar to LangGraph's BigTool, but for the JS/TS ecosystem.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "clean": "rimraf dist",
+    "prepublishOnly": "npm run clean && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "langchain",
+    "langgraph",
+    "vector store",
+    "semantic search",
+    "tool selection",
+    "tool management"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d4n5h/toolbox.git"
+  },
+  "author": "DanielS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/d4n5h/toolbox/issues"
+  },
+  "homepage": "https://github.com/d4n5h/toolbox#readme",
+  "dependencies": {
+    "@langchain/classic": "^1.0.1",
+    "@langchain/core": "^1.0.3",
+    "@langchain/langgraph": "^1.0.1",
+    "langchain": "^1.0.3",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@langchain/ollama": "^1.0.0",
+    "@types/node": "^24.10.0",
+    "rimraf": "^6.1.0",
+    "typescript": "^5.9.3"
+  }
+}
