@@ -33,6 +33,9 @@
     "url": "https://github.com/d4n5h/toolbox/issues"
   },
   "homepage": "https://github.com/d4n5h/toolbox#readme",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@langchain/classic": "^1.0.1",
     "@langchain/core": "^1.0.3",
